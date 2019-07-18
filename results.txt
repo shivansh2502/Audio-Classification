@@ -10,6 +10,7 @@ test_noise- 90.6%
 
 
 
+
 2. f_cry_mfcc,chroma
 
  (no difference same as mfcc64)
@@ -21,7 +22,7 @@ test_noise- 90.6%
 
 4.f_cry_mfccs,spectral_centroids,spectral_rolloff
 
-    parameters:-
+    parameters:-????
 	
 
 
@@ -71,7 +72,61 @@ test_noise- 90.6%
 		accuracy - crying-82.4%
 		   noise- 81.2%
 		   glass- 80.905
+
+_____________________________________________________________
 	
+13.cry+glass+noisenew-(5pre)
+	accuracy - crying-80.9%
+		   noise- 89.2%
+		   glass- 81.6%
+
+______________________________________________________________
+	
+14.cry+glass+noisenew-(1pre)
+	accuracy - crying-77.7%
+		   noise- 88.3%
+		   glass- 84.7%
+
+
+
+MFCC-
+
+5 pre
+-150 to 40
+
+
+1pre
+-300 to 30
+
+
+15.cry+glass+noisenew(22500) (1 pre) mfcc64
+	accuracy - crying-83.2%
+		   noise- 82.01%
+		   glass- 82.7%
+
+16.cry+glass+noisenew-(5pre)(22500) (c=15 in parameters)
+	accuracy - crying-83.5%
+		   noise- 80.8%
+		   glass- 81.6%
+_________________________________________________________
+
+17.cry+glass+noisenew-(5pre)(22500) (c=10 in parameters)
+	accuracy - crying-83.5%
+		   noise- 83.08%
+		   glass- 83.7%
+________________________________________________________
+
+18.cry+glass+noisenew-(5pre)(44100) (c=15 in parameters)
+	accuracy - crying- 16%
+		   noise- 64.9%
+		   glass- 53%
+
+
+
+
+
+
+
 
 
  
