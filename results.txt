@@ -116,18 +116,46 @@ _________________________________________________________
 		   glass- 83.7%
 ________________________________________________________
 
-18.cry+glass+noisenew-(5pre)(44100) (c=15 in parameters)
-	accuracy - crying- 16%
-		   noise- 64.9%
-		   glass- 53%
-abcd
+19.cry(1387)+glass+noisenew-(5pre)(22500) (c=15 in parameters)
+	accuracy - crying-86.7%
+		   noise- 81.752%
+		   glass- 86.7%
+
+________________________________________________________
+
+21.audio normal (C=10)
+
+	accuracy - crying-88.8%
+		   noise- 74.2%
+		   glass- 82.7%
 
 
+22.audio normal (C=15)
 
+	accuracy - crying- 89.9%
+		   noise- 75.7%
+		   glass- 82.7%
+_______________________________________________________________________
 
+23.audio normal {'C': 30, 'degree': 2, 'gamma': 0.0001, 'kernel': 'rbf'}
 
+	accuracy - crying- 91.05%
+		   noise- 75.7%
+		   glass-84.7% 
 
+--------------------------------------------------------------------------
 
+24.audio+feature normalized 22500  'C': 35, 'degree': 2, 'gamma': 0.1, 'kernel': 'rbf'	
+	
+	accuracy - crying- 93.6%
+		   noise- 80.1%
+		   glass-80.6% 
 
+--------------------------------------------------------------------------
 
- 
+25. feature normalized 22500  'C': 10, 'degree': 2, 'gamma': 0.1, 'kernel': 'rbf'
+
+	accuracy - crying- 93.12%
+		   noise- 73.5%
+		   glass- 81.6%
+_________________________________________________________________________ 
