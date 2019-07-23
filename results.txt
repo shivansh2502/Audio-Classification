@@ -158,4 +158,38 @@ _______________________________________________________________________
 	accuracy - crying- 93.12%
 		   noise- 73.5%
 		   glass- 81.6%
-_________________________________________________________________________ 
+
+
+26.audio+feature normalized in crying and our noise only - 22500 5pre    {'C': 10, 'degree': 2, 'gamma': 0.1, 'kernel': 'rbf'}
+
+	accuracy - crying- 90.4% 
+	           noise- 78.6%
+
+_________________________________________________________________________
+
+
+27. feature normalized in crying and our noise only - 22500 5pre  {'C': 5, 'degree': 2, 'gamma': 0.1, 'kernel': 'rbf'} 
+
+	accuracy - crying-87.302%
+	           noise- 85.294%
+
+___________________________________________________________________________
+
+28. audio normalized in crying and our noise only- 22500 5 pre   {'C': 10, 'degree': 3, 'gamma': 0.01, 'kernel': 'poly'} 
+
+
+	accuracy - crying- 84.127%
+	           noise- 77.941%
+
+
+
+
+
+
+
+
+
+24,27
+
+
+
